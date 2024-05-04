@@ -3,7 +3,7 @@ const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 
 // URL del servidor local de LM Studio (reemplaza el puerto con el correcto)
-const baseUrl = 'http://79.154.248.239:1234/v1';
+const baseUrl = 'https://79.154.248.239:1234/v1';
 
 sendButton.addEventListener('click', sendMessage);
 userInput.addEventListener('keypress', function (event) {
